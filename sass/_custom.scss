@@ -1,0 +1,42 @@
+body {
+  font-size: 1em;
+  font-family: HelveticaNeue-Light, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 200;
+  line-height: 1.4em;
+}
+
+header {
+    border-top: 8px solid #00aed1;
+    background-color: #EFEFEF;
+
+    .top-bar {
+        margin-bottom: 0;
+        background-color: #EFEFEF;
+
+        .name h1 a {
+            color: #121212;
+            text-transform: uppercase;
+            padding: 0;
+        }
+    }
+}
+
+section {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-bottom: 1px solid #EFEFEF;
+}
+
+footer {
+    background-color: #333;
+    color: #9A9A9A;
+    padding: 32px 0;
+
+    p.copyright {
+        margin: 0;
+    }
+
+    ul.inline-list {
+        margin: 0;
+    }
+}
