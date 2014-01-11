@@ -4,15 +4,22 @@ Bouffadou
 > Le *bouffadou* (bofador en occitan) est un instrument traditionnel pour attiser
 > le feu.
 
-The way we ignite frontends (HTML/CSS/JS) for the web at Nukomeet.
+The way we ignite frontends (HTML/CSS/JS) for the web at Nukomeet, based on
+[Foundation 5][1].
 
-Getting Started
----------------
+## Requirements
 
-Start by installing `compass` and `zurb-foundation` gems:
+  * Ruby 1.9+
+  * [Node.js](http://nodejs.org)
+  * [compass](http://compass-style.org/): `gem install compass`
+  * [bower](http://bower.io): `npm install bower -g`
+
+## Quickstart
+
+Start by installing `compass` and `foundation` gems:
 
     gem install compass
-    gem install zurb-foundation --pre
+    gem install foundation
 
 Ignite your project:
 
@@ -20,8 +27,11 @@ Ignite your project:
     cd your-project-name
     compass watch
 
-License
--------
 
-MIT
+## Upgrading
 
+If you'd like to upgrade to a newer version of Foundation down the road just run:
+
+    bower update
+
+[1]: http://foundation.zurb.com/

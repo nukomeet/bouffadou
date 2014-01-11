@@ -1,1 +1,4 @@
-.sass-cache/
+/components/*
+/.sass-cache/*
+*.DS_Store
+/css/*
